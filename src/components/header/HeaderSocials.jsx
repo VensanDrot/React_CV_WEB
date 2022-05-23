@@ -7,9 +7,9 @@ import {SiUpwork} from 'react-icons/si'
 const  HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href='https:/instagram.com' target="_blank"><AiOutlineInstagram /></a>
-        <a href='https:/github.com' target="_blank"><FaGithubSquare/></a>
-        <a href='https:/upwork.com' target="_blank"><SiUpwork/></a>
+        <a href='https://www.instagram.com/vens_12.06/' target="_blank"><AiOutlineInstagram /></a>
+        <a href='https://github.com/VensanDrot' target="_blank"><FaGithubSquare/></a>
+        <a href='https://www.upwork.com/freelancers/~013d38b18a0d01544c' target="_blank"><SiUpwork/></a>
     </div>
   )
 }
