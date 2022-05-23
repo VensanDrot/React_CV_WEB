@@ -44,7 +44,7 @@
         height: 30rem;
         position: absolute;
         left: calc(50% - 11rem);
-        margin-top: 4rem;
+        margin-top: 1rem;
         border-radius: 12rem 12rem 0 0;
         overflow: hidden;
         padding: 5rem 1.5rem 1.5rem 1.5rem;
@@ -165,7 +165,8 @@
             font-size: 1rem;
         }
     }
-    /* ============ TEST =============== */
+    /* ============ SPECIAL QUERIES =============== */
+    /* =========== IPAD PRO ============== */
     
     @media (max-height:1366px) and (min-width: 1024px) and (max-width:1030px) {
         .header {
@@ -178,10 +179,10 @@
         }
         .me {
             background: linear-gradient(var(--color-primary), transparent);
-            width: 40rem;
+            width: 36rem;
             height: 44rem;
             position: absolute;
-            left: calc(50% - 20rem);
+            left: calc(50% - 18rem);
             margin-top: 4rem;
             border-radius: 12rem 12rem 0 0;
             overflow: hidden;
@@ -218,6 +219,7 @@
             margin: 4px;
         }
     }
+    /* =========== Nest HUB ============== */
     
     @media (max-height:600px) and (min-width: 1024px) and (max-width: 1025px) {
         .header {
@@ -225,13 +227,13 @@
         }
         header {
             height: 100vh;
-            padding-top: 2rem;
+            padding-top: 1rem;
             overflow: hidden;
         }
         .me {
             background: linear-gradient(var(--color-primary), transparent);
             width: 15rem;
-            height: 19rem;
+            height: 23rem;
             position: absolute;
             left: calc(50% - 7.5rem);
             margin-top: 1rem;
@@ -243,7 +245,7 @@
             margin-top: 1rem;
         }
         header .btn {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
         header h1 {
             font-size: 2.5rem;
@@ -253,15 +255,24 @@
         }
         .scroll__down,
         .header__socials {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
         }
         .in a {
             font-size: 1.5rem;
         }
         .scroll__down {
-            bottom: 6rem;
+            bottom: 5rem;
+        }
+        nav i {
+            width: 2rem;
+            height: 4px;
+            margin: 3px;
+        }
+        .in a {
+            font-size: 1.1rem;
         }
     }
+    /* =========== Nest HUB ============== */
     
     @media (max-height:1368px) and (min-width: 912px) and (max-width: 913px) {
         .header {
@@ -274,10 +285,10 @@
         }
         .me {
             background: linear-gradient(var(--color-primary), transparent);
-            width: 34rem;
-            height: 38rem;
+            width: 32rem;
+            height: 40rem;
             position: absolute;
-            left: calc(50% - 17rem);
+            left: calc(50% - 16rem);
             margin-top: 4rem;
             border-radius: 12rem 12rem 0 0;
             overflow: hidden;
@@ -297,7 +308,7 @@
         }
         .scroll__down,
         .header__socials {
-            font-size: 2rem;
+            font-size: 2.2rem;
         }
         .header__socials::after {
             content: '';
@@ -309,16 +320,17 @@
             bottom: 7rem;
         }
         .in a {
-            font-size: 2rem;
+            font-size: 2.2rem;
         }
         nav i {
-            width: 2.5rem;
-            height: 5px;
+            width: 2.7rem;
+            height: 6px;
             margin: 4px;
         }
     }
+    /* =========== SURFACE PRO 7 && IPAD MINI/AIR ============== */
     
-    @media (max-height:1368px) and (min-width: 700px) and (max-width: 913px) {
+    @media (max-height:1368px) and (min-width: 700px) and (max-width: 911px) {
         .header {
             height: 100vh;
         }
@@ -372,6 +384,7 @@
             margin: 4px;
         }
     }
+    /* =========== SAMSUNG TAB S4 ============== */
     
     @media (max-height:1138px) and (min-width: 600px) and (max-width: 712px) {
         .header {
@@ -385,7 +398,7 @@
         .me {
             background: linear-gradient(var(--color-primary), transparent);
             width: 26rem;
-            height: 30rem;
+            height: 34rem;
             position: absolute;
             left: calc(50% - 13rem);
             margin-top: 3rem;
@@ -394,10 +407,10 @@
             padding: 5rem 1.5rem 1.5rem 1.5rem;
         }
         header h1 {
-            font-size: 3rem;
+            font-size: 3.5rem;
         }
         header h5 {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
         .cta {
             margin-top: 1rem;
@@ -407,7 +420,7 @@
         }
         .scroll__down,
         .header__socials {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
         .header__socials::after {
             content: '';
@@ -417,6 +430,7 @@
         }
         .scroll__down {
             bottom: 6rem;
+            right: -4rem;
         }
         .in a {
             font-size: 2rem;
@@ -425,5 +439,38 @@
             width: 2.5rem;
             height: 5px;
             margin: 4px;
+        }
+    }
+    
+    @media (max-height:1080px) and (min-width: 1800px) {
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header h5 {
+            font-size: 1.7rem;
+        }
+        .me {
+            background: linear-gradient(var(--color-primary), transparent);
+            width: 25rem;
+            height: 33rem;
+            position: absolute;
+            left: calc(50% - 12.5rem);
+            margin-top: 1rem;
+            border-radius: 12rem 12rem 0 0;
+            overflow: hidden;
+            padding: 5rem 1.5rem 1.5rem 1.5rem;
+        }
+        .scroll__down,
+        .header__socials {
+            font-size: 1.3rem;
+        }
+        .header__socials::after {
+            content: '';
+            width: 1px;
+            height: 3.2rem;
+            background: var(--color-primary);
+        }
+        .scroll__down {
+            bottom: 6rem;
         }
     }
