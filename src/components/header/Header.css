@@ -168,7 +168,7 @@
     /* ============ SPECIAL QUERIES =============== */
     /* =========== IPAD PRO ============== */
     
-    @media (max-height:1366px) and (min-width: 1024px) and (max-width:1030px) {
+    @media (min-height:1366px) and (min-width: 1024px) and (max-width:1030px) {
         .header {
             height: 100vh;
         }
@@ -219,7 +219,7 @@
             margin: 4px;
         }
     }
-    /* =========== Nest HUB ============== */
+    /* ===========Nest HUB==============*/
     
     @media (max-height:600px) and (min-width: 1024px) and (max-width: 1025px) {
         .header {
