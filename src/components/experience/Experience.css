@@ -80,3 +80,25 @@
         border: 1px solid transparent;
     }
 }
+
+@media screen and (max-width:360px) {
+    .experience__container {
+        gap: 1rem;
+    }
+    .experience__container>div {
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: 0 auto;
+    }
+    .experience__container>div:hover {
+        background: var(--color-bg-variant);
+        border-radius: 2rem;
+        border: 1px solid transparent;
+    }
+    .experience__content {
+        grid-template-columns: 1fr;
+    }
+    #experience {
+        padding-top: 2rem;
+    }
+}

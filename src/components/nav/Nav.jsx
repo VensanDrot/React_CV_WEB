@@ -4,7 +4,6 @@ import { useState } from 'react'
 
 
 
-
 const Nav = () => {
   const [activeNav, setActiveNav]= useState('#')
   const [status, setStatus] = useState('close')
@@ -23,7 +22,7 @@ const Nav = () => {
       <li><a href="#" onClick={ ()=> setActiveNav('#')} className={activeNav === "#"? 'active' : ''}>Home</a></li>
       <li><a href="#about" onClick={ ()=> setActiveNav('#about')} className={activeNav === "#about"? 'active' : ''}>About</a></li>
       <li><a href="#experience" onClick={ ()=> setActiveNav('#experience')} className={activeNav === "#experience"? 'active' : ''}>Experience</a></li>
-      <li><a href="#services" onClick={ ()=> setActiveNav('#services')} className={activeNav === "#services"? 'active' : ''}>Services</a></li>
+      <li><a href="#port" onClick={ ()=> setActiveNav('#port')} className={activeNav === "#port"? 'active' : ''}>Portfolio</a></li>
       <li><a href="#contact" onClick={ ()=> setActiveNav('#contact')} className={activeNav === "#contact"? 'active' : ''}>Contact</a></li>
       </ul>
       
@@ -42,7 +41,7 @@ const Nav = () => {
       <li><a href="#" onClick={ ()=> { setActiveNav('#'); stche(); } } className={activeNav === "#"? 'active' : ''}>Home</a></li>
       <li><a href="#about" onClick={ ()=> {setActiveNav('#about'); stche();}} className={activeNav === "#about"? 'active' : ''}>About</a></li>
       <li><a href="#experience" onClick={ ()=> {setActiveNav('#experience'); stche();}} className={activeNav === "#experience"? 'active' : ''}>Experience</a></li>
-      <li><a href="#services" onClick={ ()=> {setActiveNav('#services'); stche();}} className={activeNav === "#services"? 'active' : ''}>Services</a></li>
+      <li><a href="#port" onClick={ ()=> {setActiveNav('#port'); stche();}} className={activeNav === "#port"? 'active' : ''}>Services</a></li>
       <li><a href="#contact" onClick={ ()=> {setActiveNav('#contact'); stche();}} className={activeNav === "#contact"? 'active' : ''}>Contact</a></li>
       </ul>
        
