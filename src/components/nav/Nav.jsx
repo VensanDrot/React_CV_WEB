@@ -41,7 +41,7 @@ const Nav = () => {
       <li><a href="#" onClick={ ()=> { setActiveNav('#'); stche(); } } className={activeNav === "#"? 'active' : ''}>Home</a></li>
       <li><a href="#about" onClick={ ()=> {setActiveNav('#about'); stche();}} className={activeNav === "#about"? 'active' : ''}>About</a></li>
       <li><a href="#experience" onClick={ ()=> {setActiveNav('#experience'); stche();}} className={activeNav === "#experience"? 'active' : ''}>Experience</a></li>
-      <li><a href="#port" onClick={ ()=> {setActiveNav('#port'); stche();}} className={activeNav === "#port"? 'active' : ''}>Services</a></li>
+      <li><a href="#port" onClick={ ()=> {setActiveNav('#port'); stche();}} className={activeNav === "#port"? 'active' : ''}>Portfolio</a></li>
       <li><a href="#contact" onClick={ ()=> {setActiveNav('#contact'); stche();}} className={activeNav === "#contact"? 'active' : ''}>Contact</a></li>
       </ul>
        

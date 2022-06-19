@@ -1,7 +1,8 @@
 import React from 'react'
 import './Port.css'
-import IMG1 from '../../img/portfolio1.jpg'
-import IMG2 from '../../img/portfolio2.jpg'
+import IMG1 from '../../img/quf.png'
+import IMG2 from '../../img/bk.webp'
+import IMG3 from '../../img/web.png'
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -27,23 +28,23 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Quiz Your Friends Web App',
-        github: 'github.com',
+        title: 'PHP Quiz Your Friends Web App',
+        github: 'https://github.com/VensanDrot',
         demo:'http://vensandrot.me/quizwebapp/index.php' 
     },
     {
         id: 1,
         image: IMG2,
         title: 'C++ Banking System Project',
-        github: 'github.com',
+        github: 'https://github.com/VensanDrot/Bank-Accounting',
         
     },
     {
         id: 1,
-        image: IMG1,
-        title: 'Quiz Your Friends Web App',
-        github: 'github.com',
-        demo:'vensandrot.me' 
+        image: IMG3,
+        title: "PHP CV Website And Portfolio ",
+        github: 'https://github.com/VensanDrot/WebSite',
+        demo:'http://vensandrot.me/' 
     }
 ]
 
