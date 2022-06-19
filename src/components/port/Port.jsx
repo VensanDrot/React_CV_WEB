@@ -3,6 +3,7 @@ import './Port.css'
 import IMG1 from '../../img/quf.png'
 import IMG2 from '../../img/bk.webp'
 import IMG3 from '../../img/web.png'
+import IMG4 from '../../img/react.png'
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -33,18 +34,25 @@ const data = [
         demo:'http://vensandrot.me/quizwebapp/index.php' 
     },
     {
-        id: 1,
+        id: 2,
         image: IMG2,
         title: 'C++ Banking System Project',
         github: 'https://github.com/VensanDrot/Bank-Accounting',
         
     },
     {
-        id: 1,
+        id: 3,
         image: IMG3,
         title: "PHP CV Website And Portfolio ",
         github: 'https://github.com/VensanDrot/WebSite',
         demo:'http://vensandrot.me/' 
+    },
+    {
+        id: 4,
+        image: IMG4,
+        title: "React CV Website And Portfolio ",
+        github: 'https://github.com/VensanDrot/React_CV_WEB',
+        demo:'#' 
     }
 ]
 
