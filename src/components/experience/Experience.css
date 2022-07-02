@@ -66,6 +66,9 @@
 }
 
 @media screen and (max-width:600px) {
+    #experience {
+        padding-top: 2rem;
+    }
     .experience__container {
         gap: 1rem;
     }

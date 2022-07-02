@@ -44,6 +44,9 @@
 }
 
 @media only screen and (max-width: 700px) {
+    #port {
+        padding-top: 2rem;
+    }
     .portfolio_container {
         grid-template-columns: 1fr;
         gap: 1rem;
