@@ -24,7 +24,6 @@
         flex-direction: column;
         align-items: center;
         gap: 0.8rem;
-        font-size: 1.05rem;
         position: absolute;
         left: 0;
         bottom: 3rem;
@@ -44,7 +43,7 @@
         height: 30rem;
         position: absolute;
         left: calc(50% - 11rem);
-        margin-top: 1rem;
+        margin-top: 4rem;
         border-radius: 12rem 12rem 0 0;
         overflow: hidden;
         padding: 5rem 1.5rem 1.5rem 1.5rem;
@@ -62,19 +61,24 @@
     /* ================== MEDIA QUERIES (MAXIM WIDTH) ============= */
     
     @media screen and (max-width: 1024px) {
-        .header {
-            height: 68vh;
+        header {
+            padding-top: 2rem;
+            height: 100vh;
         }
+    }
+    /* ================== MEDIA QUERIES (MEDIUM DEVICES) ============= */
+    
+    @media only screen and (max-width: 600px) {
         header {
             height: 100vh;
-            padding-top: 6rem;
+            padding-top: 2rem;
             font-size: 1.4rem;
             overflow: hidden;
         }
         .me {
             background: linear-gradient(var(--color-primary), transparent);
             width: 20rem;
-            height: 24rem;
+            height: 28rem;
             position: absolute;
             left: calc(50% - 10rem);
             margin-top: 1.5rem;
@@ -86,391 +90,49 @@
             font-size: 1.2rem;
         }
     }
-    /* ================== MEDIA QUERIES (MEDIUM DEVICES) ============= */
     
-    @media only screen and (max-width: 768px) {
-        .header {
-            height: 100vh;
-        }
+    @media only screen and (max-width: 400px) {
         header {
             height: 100vh;
-            padding-top: 3rem;
+            padding-top: 2rem;
             font-size: 1.4rem;
-            overflow: hidden;
-        }
-        .me {
-            background: linear-gradient(var(--color-primary), transparent);
-            width: 20rem;
-            height: 24rem;
-            position: absolute;
-            left: calc(50% - 10rem);
-            margin-top: 1.5rem;
-            border-radius: 12rem 12rem 0 0;
-            overflow: hidden;
-            padding: 5rem 1.5rem 1.5rem 1.5rem;
-        }
-        header .btn {
-            font-size: 1.4rem;
-        }
-    }
-    /* ================== MEDIA QUERIES (MEDIUM DEVICES) ============= */
-    
-    @media screen and (max-width: 500px) {
-        .header {
-            height: 100vh;
-        }
-        header {
-            height: 100vh;
-            padding-top: 4rem;
             overflow: hidden;
         }
         .me {
             background: linear-gradient(var(--color-primary), transparent);
             width: 17rem;
-            height: 21rem;
+            height: 25rem;
             position: absolute;
             left: calc(50% - 8.5rem);
-            margin-top: 2rem;
+            margin-top: 1.5rem;
             border-radius: 12rem 12rem 0 0;
             overflow: hidden;
             padding: 5rem 1.5rem 1.5rem 1.5rem;
         }
         header .btn {
-            font-size: 1rem;
-        }
-    }
-    /* ================== MEDIA QUERIES (Super SMALL DEVICES) ============= */
-    
-    @media screen and (max-width: 320px) {
-        .header {
-            height: 100vh;
-        }
-        header {
-            height: 100vh;
-            padding-top: 4rem;
-            overflow: hidden;
-        }
-        .me {
-            background: linear-gradient(var(--color-primary), transparent);
-            width: 13rem;
-            height: 17rem;
-            position: absolute;
-            left: calc(50% - 6.5rem);
-            margin-top: 1rem;
-            border-radius: 12rem 12rem 0 0;
-            overflow: hidden;
-            padding: 5rem 1.5rem 1.5rem 1.5rem;
-        }
-        header .btn {
-            font-size: 1rem;
-        }
-    }
-    /* ============ SPECIAL QUERIES =============== */
-    /* =========== IPAD PRO ============== */
-    
-    @media (min-height:1366px) and (min-width: 1024px) and (max-width:1030px) {
-        .header {
-            height: 100vh;
-        }
-        header {
-            height: 100vh;
-            padding-top: 8rem;
-            overflow: hidden;
-        }
-        .me {
-            background: linear-gradient(var(--color-primary), transparent);
-            width: 36rem;
-            height: 44rem;
-            position: absolute;
-            left: calc(50% - 18rem);
-            margin-top: 4rem;
-            border-radius: 12rem 12rem 0 0;
-            overflow: hidden;
-            padding: 5rem 1.5rem 1.5rem 1.5rem;
-        }
-        header .btn {
-            font-size: 2.5rem;
-        }
-        header h1 {
-            font-size: 4.1rem;
-        }
-        header h5 {
-            font-size: 2.3rem;
-        }
-        .scroll__down,
-        .header__socials {
-            font-size: 2rem;
-        }
-        .header__socials::after {
-            content: '';
-            width: 1px;
-            height: 3.2rem;
-            background: var(--color-primary);
-        }
-        .scroll__down {
-            bottom: 7rem;
-        }
-        .in a {
-            font-size: 2.4rem;
-        }
-        nav i {
-            width: 2.5rem;
-            height: 5px;
-            margin: 4px;
-        }
-    }
-    /* ===========Nest HUB==============*/
-    
-    @media (max-height:600px) and (min-width: 1024px) and (max-width: 1025px) {
-        .header {
-            height: 100vh;
-        }
-        header {
-            height: 100vh;
-            padding-top: 1rem;
-            overflow: hidden;
-        }
-        .me {
-            background: linear-gradient(var(--color-primary), transparent);
-            width: 15rem;
-            height: 23rem;
-            position: absolute;
-            left: calc(50% - 7.5rem);
-            margin-top: 1rem;
-            border-radius: 12rem 12rem 0 0;
-            overflow: hidden;
-            padding: 5rem 1.5rem 1.5rem 1.5rem;
-        }
-        .cta {
-            margin-top: 1rem;
-        }
-        header .btn {
-            font-size: 1.3rem;
-        }
-        header h1 {
-            font-size: 2.5rem;
-        }
-        header h5 {
-            font-size: 1.3rem;
-        }
-        .scroll__down,
-        .header__socials {
             font-size: 1.2rem;
         }
-        .in a {
-            font-size: 1.5rem;
-        }
-        .scroll__down {
-            bottom: 5rem;
-        }
-        nav i {
-            width: 2rem;
-            height: 4px;
-            margin: 3px;
-        }
-        .in a {
-            font-size: 1.1rem;
-        }
     }
-    /* =========== Nest HUB ============== */
     
-    @media (max-height:1368px) and (min-width: 912px) and (max-width: 913px) {
-        .header {
-            height: 100vh;
-        }
+    @media only screen and (max-width: 360px) {
         header {
             height: 100vh;
-            padding-top: 8rem;
+            padding-top: 2rem;
+            font-size: 1.2rem;
             overflow: hidden;
         }
         .me {
             background: linear-gradient(var(--color-primary), transparent);
-            width: 32rem;
-            height: 40rem;
+            width: 13.4rem;
+            height: 21.4rem;
             position: absolute;
-            left: calc(50% - 16rem);
-            margin-top: 4rem;
+            left: calc(50% - 6.7rem);
+            margin-top: 1.5rem;
             border-radius: 12rem 12rem 0 0;
             overflow: hidden;
             padding: 5rem 1.5rem 1.5rem 1.5rem;
-        }
-        header h1 {
-            font-size: 3.8rem;
-        }
-        header h5 {
-            font-size: 2.5rem;
-        }
-        .cta {
-            margin-top: 1rem;
         }
         header .btn {
-            font-size: 2.4rem;
-        }
-        .scroll__down,
-        .header__socials {
-            font-size: 2.2rem;
-        }
-        .header__socials::after {
-            content: '';
-            width: 1px;
-            height: 3.2rem;
-            background: var(--color-primary);
-        }
-        .scroll__down {
-            bottom: 7rem;
-        }
-        .in a {
-            font-size: 2.2rem;
-        }
-        nav i {
-            width: 2.7rem;
-            height: 6px;
-            margin: 4px;
-        }
-    }
-    /* =========== SURFACE PRO 7 && IPAD MINI/AIR ============== */
-    
-    @media (max-height:1368px) and (min-width: 700px) and (max-width: 911px) {
-        .header {
-            height: 100vh;
-        }
-        header {
-            height: 100vh;
-            padding-top: 4rem;
-            overflow: hidden;
-        }
-        .me {
-            background: linear-gradient(var(--color-primary), transparent);
-            width: 28rem;
-            height: 32rem;
-            position: absolute;
-            left: calc(50% - 14rem);
-            margin-top: 4rem;
-            border-radius: 12rem 12rem 0 0;
-            overflow: hidden;
-            padding: 5rem 1.5rem 1.5rem 1.5rem;
-        }
-        header h1 {
-            font-size: 3.4rem;
-        }
-        header h5 {
-            font-size: 2.2rem;
-        }
-        .cta {
-            margin-top: 1rem;
-        }
-        header .btn {
-            font-size: 2.4rem;
-        }
-        .scroll__down,
-        .header__socials {
-            font-size: 2rem;
-        }
-        .header__socials::after {
-            content: '';
-            width: 1px;
-            height: 3.2rem;
-            background: var(--color-primary);
-        }
-        .scroll__down {
-            bottom: 7rem;
-        }
-        .in a {
-            font-size: 2rem;
-        }
-        nav i {
-            width: 2.5rem;
-            height: 5px;
-            margin: 4px;
-        }
-    }
-    /* =========== SAMSUNG TAB S4 ============== */
-    
-    @media (max-height:1138px) and (min-width: 600px) and (max-width: 712px) {
-        .header {
-            height: 100vh;
-        }
-        header {
-            height: 100vh;
-            padding-top: 4rem;
-            overflow: hidden;
-        }
-        .me {
-            background: linear-gradient(var(--color-primary), transparent);
-            width: 26rem;
-            height: 34rem;
-            position: absolute;
-            left: calc(50% - 13rem);
-            margin-top: 3rem;
-            border-radius: 12rem 12rem 0 0;
-            overflow: hidden;
-            padding: 5rem 1.5rem 1.5rem 1.5rem;
-        }
-        header h1 {
-            font-size: 3.5rem;
-        }
-        header h5 {
-            font-size: 2.5rem;
-        }
-        .cta {
-            margin-top: 1rem;
-        }
-        header .btn {
-            font-size: 2.2rem;
-        }
-        .scroll__down,
-        .header__socials {
-            font-size: 2rem;
-        }
-        .header__socials::after {
-            content: '';
-            width: 1px;
-            height: 3.2rem;
-            background: var(--color-primary);
-        }
-        .scroll__down {
-            bottom: 6rem;
-            right: -4rem;
-        }
-        .in a {
-            font-size: 2rem;
-        }
-        nav i {
-            width: 2.5rem;
-            height: 5px;
-            margin: 4px;
-        }
-    }
-    
-    @media (max-height:1080px) and (min-width: 1800px) {
-        header h1 {
-            font-size: 2.5rem;
-        }
-        header h5 {
-            font-size: 1.7rem;
-        }
-        .me {
-            background: linear-gradient(var(--color-primary), transparent);
-            width: 25rem;
-            height: 33rem;
-            position: absolute;
-            left: calc(50% - 12.5rem);
-            margin-top: 1rem;
-            border-radius: 12rem 12rem 0 0;
-            overflow: hidden;
-            padding: 5rem 1.5rem 1.5rem 1.5rem;
-        }
-        .scroll__down,
-        .header__socials {
-            font-size: 1.3rem;
-        }
-        .header__socials::after {
-            content: '';
-            width: 1px;
-            height: 3.2rem;
-            background: var(--color-primary);
-        }
-        .scroll__down {
-            bottom: 6rem;
+            font-size: 1.2rem;
         }
     }
