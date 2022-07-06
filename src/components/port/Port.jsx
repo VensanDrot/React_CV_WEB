@@ -4,6 +4,7 @@ import IMG1 from '../../img/quf.png'
 import IMG2 from '../../img/bk.webp'
 import IMG3 from '../../img/web.png'
 import IMG4 from '../../img/react.png'
+import IMG5 from '../../img/weather.jpg'
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -53,6 +54,13 @@ const data = [
         title: "React CV Website And Portfolio ",
         github: 'https://github.com/VensanDrot/React_CV_WEB',
         demo:'#' 
+    },
+    {
+        id: 5,
+        image: IMG5,
+        title: "Weather React app ",
+        github: 'https://github.com/VensanDrot/React_CV_WEB',
+        demo:'https://gleeful-croissant-292f2a.netlify.app/' 
     }
 ]
 
