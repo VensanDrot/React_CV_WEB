@@ -59,7 +59,7 @@ const data = [
         id: 5,
         image: IMG5,
         title: "Weather React app ",
-        github: 'https://github.com/VensanDrot/React_CV_WEB',
+        github: 'https://github.com/VensanDrot/Weather-React-App',
         demo:'https://gleeful-croissant-292f2a.netlify.app/' 
     }
 ]
