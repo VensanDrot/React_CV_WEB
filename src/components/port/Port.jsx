@@ -92,6 +92,7 @@ const data = [
     id: 10,
     image: IMG9,
     title: "Glitched.EXE",
+    github: "https://github.com/VensanDrot/Glitched.exe",
     demo: "https://www.glitchedexe.com/",
   },
 ];
