@@ -34,8 +34,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: "PHP Quiz Your Friends Web App",
-    github: "https://github.com/VensanDrot",
-    demo: "http://vensandrot.me/quizwebapp/index.php",
+    github: "https://github.com/VensanDrot/Quiz_Your_Friend_Web",
   },
   {
     id: 2,
@@ -48,7 +47,6 @@ const data = [
     image: IMG3,
     title: "PHP CV Website And Portfolio ",
     github: "https://github.com/VensanDrot/WebSite",
-    demo: "http://vensandrot.me/",
   },
   {
     id: 4,
