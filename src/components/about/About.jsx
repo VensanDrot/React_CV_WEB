@@ -36,9 +36,9 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur cumque doloremque eos voluptates, iure
-            fuga laborum minima ut, impedit accusamus facilis repellat, ipsam iste dolorem. Ut voluptate dolore aliquid
-            numquam.
+            Hello there! I am Vensan Drot, a full stack web developer with over 3 years of experience in the industry.
+            During my career, I have worked on a variety of commercial projects. I am passionate about writing clean,
+            efficient code and constantly improving my skills to stay up-to-date with the latest technologies.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
