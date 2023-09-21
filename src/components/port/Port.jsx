@@ -8,7 +8,7 @@ import IMG5 from "../../img/weather.jpg";
 import IMG6 from "../../img/quote.png";
 import IMG7 from "../../img/mobile.png";
 import IMG8 from "../../img/portfolio5.png";
-import IMG9 from "../../img/exe.png";
+import IMG9 from "../../img/design.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -91,9 +91,9 @@ const data = [
   {
     id: 10,
     image: IMG9,
-    title: "Glitched.EXE",
-    github: "https://github.com/VensanDrot/Glitched.exe",
-    demo: "https://www.glitchedexe.com/",
+    title: "HydratioNation",
+    github: "https://github.com/VensanDrot/MedWeb",
+    demo: "https://www.hydrationationiv.com/",
   },
 ];
 
@@ -104,7 +104,7 @@ const Port = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container btn_primary">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.reverse().map(({ id, image, title, github, demo }) => {
           return (
             <article className="portfolio_item" key={id}>
               <div className="portfolio_item_img">

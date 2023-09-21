@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import ME from "../../img/1.jpg";
+import ME from "../../img/download.png";
 
 const About = () => {
   return (
@@ -20,13 +20,13 @@ const About = () => {
             <article className="about__card">
               <i class="fa-solid fa-award about__icon"></i>
               <h5>Experience</h5>
-              <small>3+ YearsWorking</small>
+              <small>6+ YearsWorking</small>
             </article>
 
             <article className="about__card">
               <i class="fa-solid fa-users about__icon"></i>
               <h5>Clients</h5>
-              <small>14+ Worldwide</small>
+              <small>20+ Worldwide</small>
             </article>
 
             <article className="about__card">

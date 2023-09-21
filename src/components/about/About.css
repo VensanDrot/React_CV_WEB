@@ -20,9 +20,13 @@
 
 .about__me-image {
     border-radius: 2rem;
-    overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+}
+
+.about__me-image > img{
+    border-radius: 2rem;
+ 
 }
 
 .about__me-image:hover {
@@ -118,15 +122,7 @@
 }
 
 @media screen and (max-width:300px) {
-    #about {
-        padding-top: 2rem;
-    }
-    .about__me {
-        width: 65%;
-        margin: 0 auto 2rem;
-    }
     .about__cards {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+        grid-template-columns: 1fr;   
     }
 }
