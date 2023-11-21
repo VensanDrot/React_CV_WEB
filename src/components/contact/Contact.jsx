@@ -30,23 +30,23 @@ const Contact = () => {
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineEmail className="contact-icon" />
-            <h4>Email</h4>
-            <h5>drotvensan@gmail.com</h5>
-            <a href="mailto:drotvensan@gmail.com" target="_blank">
+            <h4>Email:</h4>
+            <h5>vensandrot@gmail.com</h5>
+            <a href="mailto:vensandrot@gmail.com" target="_blank">
               Send a message
             </a>
           </article>
           <article className="contact_option">
             <FaLinkedinIn className="contact-icon" />
-            <h4>LinkedIn</h4>
+            <h4>LinkedIn:</h4>
             <h5>@vensandrot</h5>
-            <a href="https://www.linkedin.com/in/vensan-drot-206374236/" target="_blank">
+            <a href="https://www.linkedin.com/in/vensandrot/" target="_blank">
               Send a message
             </a>
           </article>
           <article className="contact_option">
             <SiUpwork className="contact-icon" />
-            <h4>UpWork</h4>
+            <h4>UpWork:</h4>
             <h5>Vensan Drot</h5>
             <a href="https://www.upwork.com/freelancers/~013d38b18a0d01544c" target="_blank">
               Send a message
