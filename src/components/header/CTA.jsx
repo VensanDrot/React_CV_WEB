@@ -1,9 +1,9 @@
 import React from "react";
-import CV from "../Vensan-Drot.pdf";
+import CV from "../VensanDrot-WebDeveloper.pdf";
 
 const CTA = () => {
   return (
-    <div class="cta">
+    <div className="cta">
       <a href={CV} download className="btn">
         Download CV
       </a>

@@ -9,6 +9,7 @@ import IMG6 from "../../img/quote.png";
 import IMG7 from "../../img/mobile.png";
 import IMG8 from "../../img/portfolio5.png";
 import IMG9 from "../../img/design.png";
+import IMG10 from "../../img/i.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -35,6 +36,7 @@ const data = [
     image: IMG1,
     title: "PHP Quiz Your Friends Web App",
     github: "https://github.com/VensanDrot/Quiz_Your_Friend_Web",
+    demo: "http://friendship-quiz.infinityfreeapp.com/?i=1",
   },
   {
     id: 2,
@@ -95,6 +97,13 @@ const data = [
     github: "https://github.com/VensanDrot/MedWeb",
     demo: "https://www.hydrationationiv.com/",
   },
+  {
+    id: 11,
+    image: IMG10,
+    title: "IronCraft.pro",
+    github: "https://github.com/VensanDrot/MCon",
+    demo: "https://www.ironcraft.pro/",
+  },
 ];
 
 const Port = () => {
@@ -108,7 +117,7 @@ const Port = () => {
           return (
             <article className="portfolio_item" key={id}>
               <div className="portfolio_item_img">
-                <img className="image_source" src={image} alt={title} />
+                <img className="image_source" height={300} width={300} src={image} alt={title} />
               </div>
               <h3>{title}</h3>
               <div className="portfolio_item_cta">
