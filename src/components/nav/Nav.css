@@ -69,6 +69,7 @@
     
     nav .div-mobile a {
         width: max-content;
+        font-size: 1.2rem;
     }
     
     nav .div-mobile a.active::after {

@@ -59,7 +59,7 @@ const Nav = () => {
         <i className={status}></i>
       </div>
 
-      <ul className={` div-mobile ${statusdiv}`}>
+      <ul className={`div-mobile ${statusdiv}`}>
         <li>
           <a
             href="#"
