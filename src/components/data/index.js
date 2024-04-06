@@ -69,7 +69,7 @@ export const data = [
     image: IMG4,
     title: "ScandiWeb",
     github: "https://github.com/VensanDrot/React_PHP",
-    demo: "http://react-php-wheat.vercel.app/",
+    // demo: "http://react-php-wheat.vercel.app/",
   },
   {
     id: 10,
