@@ -10,6 +10,8 @@ import IMG9 from "../../img/design.png";
 import IMG10 from "../../img/i.png";
 import IMG11 from "../../img/logo.webp";
 import IMG12 from "../../img/gmny.webp";
+import IMG14 from "../../img/ichanki.jpeg";
+import IMG15 from "../../img/academy-favicon.svg";
 
 export const data = [
   {
@@ -75,15 +77,15 @@ export const data = [
     id: 10,
     image: IMG9,
     title: "HydratioNation",
-    github: "https://github.com/VensanDrot/MedWeb",
+    // github: "https://github.com/VensanDrot/MedWeb",
     demo: "https://www.hydrationationiv.com/",
   },
   {
     id: 11,
     image: IMG10,
     title: "IronCraft.pro",
-    github: "https://github.com/VensanDrot/MCon",
-    demo: "https://www.ironcraft.pro/",
+    // github: "https://github.com/VensanDrot/MCon",
+    // demo: "https://www.ironcraft.pro/",
   },
   {
     id: 12,
@@ -92,9 +94,23 @@ export const data = [
     demo: "https://www.centrum-air.com/en",
   },
   {
+    id: 14,
+    image: IMG14,
+    title: "Ichanki",
+    // github: "https://github.com/VensanDrot/GMNY_admin_panel",
+    demo: "https://ichanki.uz/en",
+  },
+  {
+    id: 15,
+    image: IMG15,
+    title: "JOWI Academy",
+    // github: "https://github.com/VensanDrot/GMNY_admin_panel",
+    demo: "https://jowi-academy.app/login?backto=/employees",
+  },
+  {
     id: 13,
     image: IMG12,
     title: "GMNY CRM",
-    github: "https://github.com/VensanDrot/GMNY_admin_panel",
+    // github: "https://github.com/VensanDrot/GMNY_admin_panel",
   },
 ];
